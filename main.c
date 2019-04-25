@@ -8,7 +8,7 @@ int main() {
     int zahl1;
     int zahl2;
     int auswahl;
-    int again;
+    int loop; // ausgeweshcselt durch getchar();
 
 
 
@@ -45,9 +45,8 @@ int main() {
         }else{
             return 0;
         }
-        printf("Repeat press 1, Exit press any key : ");
-        scanf("%d", &again);
-    } while (again == 1);
+
+    } while (getchar()!='1');
 
 
 
