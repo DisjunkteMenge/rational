@@ -12,6 +12,7 @@ int ggT(unsigned int a, unsigned int b) {
         b = c;           /* Vertauschen der Werte */
     } while (c != 0);
 
+
     return a;
 }
 
