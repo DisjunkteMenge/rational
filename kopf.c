@@ -117,7 +117,6 @@ Rational dividiere(Rational a, Rational b) {
 float toFloat(Rational a) {
     a = eingabeBruch1(a);
 
-
     float c;
     c = (float) a.zaehler / (float) a.nenner;
     ausgabeFloat(c);
