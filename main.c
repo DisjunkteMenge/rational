@@ -45,8 +45,10 @@ int main() {
         }else{
             return 0;
         }
+        printf("Repeat press 1, exit press any key : ");
+        scanf("%d", &loop);
 
-    } while (getchar()!='1');
+    } while (loop == 1);
 
 
 

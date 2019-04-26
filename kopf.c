@@ -45,7 +45,7 @@ Rational eingabeBruch2(Rational b) {
 }
 
 void ausgabeFloat(float r) {
-    printf("%f", r);
+    printf("Bruch in float: %f\n", r);
 }
 
 Rational kuerze(Rational r) {                           //Ausgerechnete Brüche kürzen
